@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9275BF282BDF854400834DC8 /* Game+GKGameCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF272BDF854400834DC8 /* Game+GKGameCenterController.swift */; };
+		9275BF2A2BDF85FE00834DC8 /* Game+Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF292BDF85FE00834DC8 /* Game+Friends.swift */; };
+		9275BF2C2BDF882B00834DC8 /* Game+Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF2B2BDF882B00834DC8 /* Game+Messages.swift */; };
+		9275BF2E2BDF885100834DC8 /* Game+MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF2D2BDF885100834DC8 /* Game+MatchData.swift */; };
+		9275BF302BDF893D00834DC8 /* Game+GKLocalPlayerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF2F2BDF893D00834DC8 /* Game+GKLocalPlayerListener.swift */; };
+		9275BF322BDF896800834DC8 /* Game+GKMatchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF312BDF896800834DC8 /* Game+GKMatchDelegate.swift */; };
+		9275BF342BDF89BC00834DC8 /* Game+GKMatchMakerViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF332BDF89BC00834DC8 /* Game+GKMatchMakerViewControllerDelegate.swift */; };
+		9275BF362BE0AEA400834DC8 /* MultiplayerGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF352BE0AEA400834DC8 /* MultiplayerGameView.swift */; };
+		9275BF382BE0C7F000834DC8 /* MultiplayerMainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9275BF372BE0C7F000834DC8 /* MultiplayerMainGameView.swift */; };
+		92CF54722BD8B10F007C9DD4 /* BuzzPopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54712BD8B10F007C9DD4 /* BuzzPopApp.swift */; };
+		92CF54742BD8B10F007C9DD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54732BD8B10F007C9DD4 /* ContentView.swift */; };
+		92CF54762BD8B110007C9DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54752BD8B110007C9DD4 /* Assets.xcassets */; };
+		92CF54792BD8B110007C9DD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54782BD8B110007C9DD4 /* Preview Assets.xcassets */; };
+		92CF54832BD8B110007C9DD4 /* BuzzPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54822BD8B110007C9DD4 /* BuzzPopTests.swift */; };
+		92CF548D2BD8B110007C9DD4 /* BuzzPopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF548C2BD8B110007C9DD4 /* BuzzPopUITests.swift */; };
+		92CF548F2BD8B110007C9DD4 /* BuzzPopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF548E2BD8B110007C9DD4 /* BuzzPopUITestsLaunchTests.swift */; };
+		92CF549E2BD8B16F007C9DD4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF549D2BD8B16F007C9DD4 /* GameView.swift */; };
+		92CF54A22BD8B255007C9DD4 /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54A12BD8B255007C9DD4 /* MainGameView.swift */; };
+		92CF54A42BD8B2A4007C9DD4 /* GameControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54A32BD8B2A4007C9DD4 /* GameControlView.swift */; };
+		92CF54AA2BD8B339007C9DD4 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54A92BD8B339007C9DD4 /* Music.swift */; };
+		92CF54AC2BD8B356007C9DD4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54AB2BD8B356007C9DD4 /* Game.swift */; };
+		92CF54BF2BD8BAE7007C9DD4 /* Joji.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54AF2BD8BAE7007C9DD4 /* Joji.mp3 */; };
+		92CF54C02BD8BAE7007C9DD4 /* George Michael - Careless Whisper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B02BD8BAE7007C9DD4 /* George Michael - Careless Whisper.mp3 */; };
+		92CF54C12BD8BAE7007C9DD4 /* Joseph Vincent - Cant Take My Eyes Off You Lyrics.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B12BD8BAE7007C9DD4 /* Joseph Vincent - Cant Take My Eyes Off You Lyrics.mp3 */; };
+		92CF54C22BD8BAE7007C9DD4 /* Rick Astley - Never Gonna Give You Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B22BD8BAE7007C9DD4 /* Rick Astley - Never Gonna Give You Up.mp3 */; };
+		92CF54C32BD8BAE7007C9DD4 /* Hers - Harvey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B32BD8BAE7007C9DD4 /* Hers - Harvey.mp3 */; };
+		92CF54C42BD8BAE7007C9DD4 /* Smash Mouth - All Star.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B42BD8BAE7007C9DD4 /* Smash Mouth - All Star.mp3 */; };
+		92CF54C52BD8BAE7007C9DD4 /* Labrinth - Jealous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B52BD8BAE7007C9DD4 /* Labrinth - Jealous.mp3 */; };
+		92CF54C62BD8BAE7007C9DD4 /* ZICO - Any Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B62BD8BAE7007C9DD4 /* ZICO - Any Song.mp3 */; };
+		92CF54C72BD8BAE7007C9DD4 /* PinkPantheress Ice Spice - Boys a liar Pt 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B72BD8BAE7007C9DD4 /* PinkPantheress Ice Spice - Boys a liar Pt 2.mp3 */; };
+		92CF54C82BD8BAE7007C9DD4 /* Tame Impala - The Less I Know The Better.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B82BD8BAE7007C9DD4 /* Tame Impala - The Less I Know The Better.mp3 */; };
+		92CF54C92BD8BAE7007C9DD4 /* YOASOBI - Racing Into The Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54B92BD8BAE7007C9DD4 /* YOASOBI - Racing Into The Night.mp3 */; };
+		92CF54CA2BD8BAE7007C9DD4 /* Radiohead -  Creep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54BA2BD8BAE7007C9DD4 /* Radiohead -  Creep.mp3 */; };
+		92CF54CB2BD8BAE7007C9DD4 /* Franz Ferdinand - This Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54BB2BD8BAE7007C9DD4 /* Franz Ferdinand - This Fire.mp3 */; };
+		92CF54CC2BD8BAE7007C9DD4 /* Doja Cat - Kiss Me More.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54BC2BD8BAE7007C9DD4 /* Doja Cat - Kiss Me More.mp3 */; };
+		92CF54CD2BD8BAE7007C9DD4 /* Coldplay - The Scientist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54BD2BD8BAE7007C9DD4 /* Coldplay - The Scientist.mp3 */; };
+		92CF54CE2BD8BAE7007C9DD4 /* Doja Cat - Say So.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54BE2BD8BAE7007C9DD4 /* Doja Cat - Say So.mp3 */; };
+		92CF54D22BD8C6C0007C9DD4 /* Jungle - Back On 74.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54D12BD8C6C0007C9DD4 /* Jungle - Back On 74.mp3 */; };
+		92CF54D42BD8C6F9007C9DD4 /* The Killers - Mr.Brightside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54D32BD8C6F9007C9DD4 /* The Killers - Mr.Brightside.mp3 */; };
+		92CF54D62BD8C74E007C9DD4 /* Laufey - From The Start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92CF54D52BD8C74E007C9DD4 /* Laufey - From The Start.mp3 */; };
+		92CF54E42BD903E9007C9DD4 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54E32BD903E9007C9DD4 /* MainMenuView.swift */; };
+		92CF54EA2BDB93E5007C9DD4 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF54E92BDB93E5007C9DD4 /* Misc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92CF547F2BD8B110007C9DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CF54662BD8B10F007C9DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CF546D2BD8B10F007C9DD4;
+			remoteInfo = BuzzPop;
+		};
+		92CF54892BD8B110007C9DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CF54662BD8B10F007C9DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CF546D2BD8B10F007C9DD4;
+			remoteInfo = BuzzPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9275BF272BDF854400834DC8 /* Game+GKGameCenterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+GKGameCenterController.swift"; sourceTree = "<group>"; };
+		9275BF292BDF85FE00834DC8 /* Game+Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+Friends.swift"; sourceTree = "<group>"; };
+		9275BF2B2BDF882B00834DC8 /* Game+Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+Messages.swift"; sourceTree = "<group>"; };
+		9275BF2D2BDF885100834DC8 /* Game+MatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+MatchData.swift"; sourceTree = "<group>"; };
+		9275BF2F2BDF893D00834DC8 /* Game+GKLocalPlayerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+GKLocalPlayerListener.swift"; sourceTree = "<group>"; };
+		9275BF312BDF896800834DC8 /* Game+GKMatchDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+GKMatchDelegate.swift"; sourceTree = "<group>"; };
+		9275BF332BDF89BC00834DC8 /* Game+GKMatchMakerViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+GKMatchMakerViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		9275BF352BE0AEA400834DC8 /* MultiplayerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerGameView.swift; sourceTree = "<group>"; };
+		9275BF372BE0C7F000834DC8 /* MultiplayerMainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerMainGameView.swift; sourceTree = "<group>"; };
+		92CF546E2BD8B10F007C9DD4 /* BuzzPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuzzPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF54712BD8B10F007C9DD4 /* BuzzPopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzPopApp.swift; sourceTree = "<group>"; };
+		92CF54732BD8B10F007C9DD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92CF54752BD8B110007C9DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92CF54782BD8B110007C9DD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92CF547E2BD8B110007C9DD4 /* BuzzPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuzzPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF54822BD8B110007C9DD4 /* BuzzPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzPopTests.swift; sourceTree = "<group>"; };
+		92CF54882BD8B110007C9DD4 /* BuzzPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuzzPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF548C2BD8B110007C9DD4 /* BuzzPopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzPopUITests.swift; sourceTree = "<group>"; };
+		92CF548E2BD8B110007C9DD4 /* BuzzPopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzPopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92CF549D2BD8B16F007C9DD4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		92CF54A12BD8B255007C9DD4 /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		92CF54A32BD8B2A4007C9DD4 /* GameControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControlView.swift; sourceTree = "<group>"; };
+		92CF54A92BD8B339007C9DD4 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		92CF54AB2BD8B356007C9DD4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		92CF54AD2BD8B42F007C9DD4 /* BuzzPop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BuzzPop.entitlements; sourceTree = "<group>"; };
+		92CF54AF2BD8BAE7007C9DD4 /* Joji.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Joji.mp3; sourceTree = "<group>"; };
+		92CF54B02BD8BAE7007C9DD4 /* George Michael - Careless Whisper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "George Michael - Careless Whisper.mp3"; sourceTree = "<group>"; };
+		92CF54B12BD8BAE7007C9DD4 /* Joseph Vincent - Cant Take My Eyes Off You Lyrics.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Joseph Vincent - Cant Take My Eyes Off You Lyrics.mp3"; sourceTree = "<group>"; };
+		92CF54B22BD8BAE7007C9DD4 /* Rick Astley - Never Gonna Give You Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rick Astley - Never Gonna Give You Up.mp3"; sourceTree = "<group>"; };
+		92CF54B32BD8BAE7007C9DD4 /* Hers - Harvey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hers - Harvey.mp3"; sourceTree = "<group>"; };
+		92CF54B42BD8BAE7007C9DD4 /* Smash Mouth - All Star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Smash Mouth - All Star.mp3"; sourceTree = "<group>"; };
+		92CF54B52BD8BAE7007C9DD4 /* Labrinth - Jealous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Labrinth - Jealous.mp3"; sourceTree = "<group>"; };
+		92CF54B62BD8BAE7007C9DD4 /* ZICO - Any Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ZICO - Any Song.mp3"; sourceTree = "<group>"; };
+		92CF54B72BD8BAE7007C9DD4 /* PinkPantheress Ice Spice - Boys a liar Pt 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "PinkPantheress Ice Spice - Boys a liar Pt 2.mp3"; sourceTree = "<group>"; };
+		92CF54B82BD8BAE7007C9DD4 /* Tame Impala - The Less I Know The Better.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tame Impala - The Less I Know The Better.mp3"; sourceTree = "<group>"; };
+		92CF54B92BD8BAE7007C9DD4 /* YOASOBI - Racing Into The Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "YOASOBI - Racing Into The Night.mp3"; sourceTree = "<group>"; };
+		92CF54BA2BD8BAE7007C9DD4 /* Radiohead -  Creep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Radiohead -  Creep.mp3"; sourceTree = "<group>"; };
+		92CF54BB2BD8BAE7007C9DD4 /* Franz Ferdinand - This Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Franz Ferdinand - This Fire.mp3"; sourceTree = "<group>"; };
+		92CF54BC2BD8BAE7007C9DD4 /* Doja Cat - Kiss Me More.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Doja Cat - Kiss Me More.mp3"; sourceTree = "<group>"; };
+		92CF54BD2BD8BAE7007C9DD4 /* Coldplay - The Scientist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coldplay - The Scientist.mp3"; sourceTree = "<group>"; };
+		92CF54BE2BD8BAE7007C9DD4 /* Doja Cat - Say So.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Doja Cat - Say So.mp3"; sourceTree = "<group>"; };
+		92CF54D12BD8C6C0007C9DD4 /* Jungle - Back On 74.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jungle - Back On 74.mp3"; sourceTree = "<group>"; };
+		92CF54D32BD8C6F9007C9DD4 /* The Killers - Mr.Brightside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Killers - Mr.Brightside.mp3"; sourceTree = "<group>"; };
+		92CF54D52BD8C74E007C9DD4 /* Laufey - From The Start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Laufey - From The Start.mp3"; sourceTree = "<group>"; };
+		92CF54E32BD903E9007C9DD4 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		92CF54E92BDB93E5007C9DD4 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CF546B2BD8B10F007C9DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF547B2BD8B110007C9DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF54852BD8B110007C9DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92CF54652BD8B10F007C9DD4 = {
+			isa = PBXGroup;
+			children = (
+				92CF54702BD8B10F007C9DD4 /* BuzzPop */,
+				92CF54812BD8B110007C9DD4 /* BuzzPopTests */,
+				92CF548B2BD8B110007C9DD4 /* BuzzPopUITests */,
+				92CF546F2BD8B10F007C9DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92CF546F2BD8B10F007C9DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92CF546E2BD8B10F007C9DD4 /* BuzzPop.app */,
+				92CF547E2BD8B110007C9DD4 /* BuzzPopTests.xctest */,
+				92CF54882BD8B110007C9DD4 /* BuzzPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92CF54702BD8B10F007C9DD4 /* BuzzPop */ = {
+			isa = PBXGroup;
+			children = (
+				92CF54AE2BD8B99C007C9DD4 /* MusicFiles */,
+				92CF54AD2BD8B42F007C9DD4 /* BuzzPop.entitlements */,
+				92CF54A52BD8B2D1007C9DD4 /* Model */,
+				92CF549B2BD8B14B007C9DD4 /* View */,
+				92CF54712BD8B10F007C9DD4 /* BuzzPopApp.swift */,
+				92CF54732BD8B10F007C9DD4 /* ContentView.swift */,
+				92CF54E92BDB93E5007C9DD4 /* Misc.swift */,
+				92CF54752BD8B110007C9DD4 /* Assets.xcassets */,
+				92CF54772BD8B110007C9DD4 /* Preview Content */,
+			);
+			path = BuzzPop;
+			sourceTree = "<group>";
+		};
+		92CF54772BD8B110007C9DD4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92CF54782BD8B110007C9DD4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92CF54812BD8B110007C9DD4 /* BuzzPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				92CF54822BD8B110007C9DD4 /* BuzzPopTests.swift */,
+			);
+			path = BuzzPopTests;
+			sourceTree = "<group>";
+		};
+		92CF548B2BD8B110007C9DD4 /* BuzzPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92CF548C2BD8B110007C9DD4 /* BuzzPopUITests.swift */,
+				92CF548E2BD8B110007C9DD4 /* BuzzPopUITestsLaunchTests.swift */,
+			);
+			path = BuzzPopUITests;
+			sourceTree = "<group>";
+		};
+		92CF549B2BD8B14B007C9DD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92CF549C2BD8B15D007C9DD4 /* Game */,
+				92CF54E32BD903E9007C9DD4 /* MainMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92CF549C2BD8B15D007C9DD4 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				92CF549D2BD8B16F007C9DD4 /* GameView.swift */,
+				92CF54A12BD8B255007C9DD4 /* MainGameView.swift */,
+				92CF54A32BD8B2A4007C9DD4 /* GameControlView.swift */,
+				9275BF352BE0AEA400834DC8 /* MultiplayerGameView.swift */,
+				9275BF372BE0C7F000834DC8 /* MultiplayerMainGameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		92CF54A52BD8B2D1007C9DD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92CF54A92BD8B339007C9DD4 /* Music.swift */,
+				92CF54AB2BD8B356007C9DD4 /* Game.swift */,
+				9275BF272BDF854400834DC8 /* Game+GKGameCenterController.swift */,
+				9275BF292BDF85FE00834DC8 /* Game+Friends.swift */,
+				9275BF2B2BDF882B00834DC8 /* Game+Messages.swift */,
+				9275BF2D2BDF885100834DC8 /* Game+MatchData.swift */,
+				9275BF2F2BDF893D00834DC8 /* Game+GKLocalPlayerListener.swift */,
+				9275BF312BDF896800834DC8 /* Game+GKMatchDelegate.swift */,
+				9275BF332BDF89BC00834DC8 /* Game+GKMatchMakerViewControllerDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92CF54AE2BD8B99C007C9DD4 /* MusicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92CF54D52BD8C74E007C9DD4 /* Laufey - From The Start.mp3 */,
+				92CF54D32BD8C6F9007C9DD4 /* The Killers - Mr.Brightside.mp3 */,
+				92CF54D12BD8C6C0007C9DD4 /* Jungle - Back On 74.mp3 */,
+				92CF54BD2BD8BAE7007C9DD4 /* Coldplay - The Scientist.mp3 */,
+				92CF54BC2BD8BAE7007C9DD4 /* Doja Cat - Kiss Me More.mp3 */,
+				92CF54BE2BD8BAE7007C9DD4 /* Doja Cat - Say So.mp3 */,
+				92CF54BB2BD8BAE7007C9DD4 /* Franz Ferdinand - This Fire.mp3 */,
+				92CF54B02BD8BAE7007C9DD4 /* George Michael - Careless Whisper.mp3 */,
+				92CF54B32BD8BAE7007C9DD4 /* Hers - Harvey.mp3 */,
+				92CF54AF2BD8BAE7007C9DD4 /* Joji.mp3 */,
+				92CF54B12BD8BAE7007C9DD4 /* Joseph Vincent - Cant Take My Eyes Off You Lyrics.mp3 */,
+				92CF54B52BD8BAE7007C9DD4 /* Labrinth - Jealous.mp3 */,
+				92CF54B72BD8BAE7007C9DD4 /* PinkPantheress Ice Spice - Boys a liar Pt 2.mp3 */,
+				92CF54BA2BD8BAE7007C9DD4 /* Radiohead -  Creep.mp3 */,
+				92CF54B22BD8BAE7007C9DD4 /* Rick Astley - Never Gonna Give You Up.mp3 */,
+				92CF54B42BD8BAE7007C9DD4 /* Smash Mouth - All Star.mp3 */,
+				92CF54B82BD8BAE7007C9DD4 /* Tame Impala - The Less I Know The Better.mp3 */,
+				92CF54B92BD8BAE7007C9DD4 /* YOASOBI - Racing Into The Night.mp3 */,
+				92CF54B62BD8BAE7007C9DD4 /* ZICO - Any Song.mp3 */,
+			);
+			path = MusicFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92CF546D2BD8B10F007C9DD4 /* BuzzPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF54922BD8B110007C9DD4 /* Build configuration list for PBXNativeTarget "BuzzPop" */;
+			buildPhases = (
+				92CF546A2BD8B10F007C9DD4 /* Sources */,
+				92CF546B2BD8B10F007C9DD4 /* Frameworks */,
+				92CF546C2BD8B10F007C9DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuzzPop;
+			productName = BuzzPop;
+			productReference = 92CF546E2BD8B10F007C9DD4 /* BuzzPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92CF547D2BD8B110007C9DD4 /* BuzzPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF54952BD8B110007C9DD4 /* Build configuration list for PBXNativeTarget "BuzzPopTests" */;
+			buildPhases = (
+				92CF547A2BD8B110007C9DD4 /* Sources */,
+				92CF547B2BD8B110007C9DD4 /* Frameworks */,
+				92CF547C2BD8B110007C9DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CF54802BD8B110007C9DD4 /* PBXTargetDependency */,
+			);
+			name = BuzzPopTests;
+			productName = BuzzPopTests;
+			productReference = 92CF547E2BD8B110007C9DD4 /* BuzzPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92CF54872BD8B110007C9DD4 /* BuzzPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF54982BD8B110007C9DD4 /* Build configuration list for PBXNativeTarget "BuzzPopUITests" */;
+			buildPhases = (
+				92CF54842BD8B110007C9DD4 /* Sources */,
+				92CF54852BD8B110007C9DD4 /* Frameworks */,
+				92CF54862BD8B110007C9DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CF548A2BD8B110007C9DD4 /* PBXTargetDependency */,
+			);
+			name = BuzzPopUITests;
+			productName = BuzzPopUITests;
+			productReference = 92CF54882BD8B110007C9DD4 /* BuzzPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92CF54662BD8B10F007C9DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					92CF546D2BD8B10F007C9DD4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					92CF547D2BD8B110007C9DD4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92CF546D2BD8B10F007C9DD4;
+					};
+					92CF54872BD8B110007C9DD4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 92CF546D2BD8B10F007C9DD4;
+					};
+				};
+			};
+			buildConfigurationList = 92CF54692BD8B10F007C9DD4 /* Build configuration list for PBXProject "BuzzPop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92CF54652BD8B10F007C9DD4;
+			productRefGroup = 92CF546F2BD8B10F007C9DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92CF546D2BD8B10F007C9DD4 /* BuzzPop */,
+				92CF547D2BD8B110007C9DD4 /* BuzzPopTests */,
+				92CF54872BD8B110007C9DD4 /* BuzzPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92CF546C2BD8B10F007C9DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CF54CD2BD8BAE7007C9DD4 /* Coldplay - The Scientist.mp3 in Resources */,
+				92CF54C02BD8BAE7007C9DD4 /* George Michael - Careless Whisper.mp3 in Resources */,
+				92CF54C82BD8BAE7007C9DD4 /* Tame Impala - The Less I Know The Better.mp3 in Resources */,
+				92CF54D22BD8C6C0007C9DD4 /* Jungle - Back On 74.mp3 in Resources */,
+				92CF54C42BD8BAE7007C9DD4 /* Smash Mouth - All Star.mp3 in Resources */,
+				92CF54CA2BD8BAE7007C9DD4 /* Radiohead -  Creep.mp3 in Resources */,
+				92CF54C52BD8BAE7007C9DD4 /* Labrinth - Jealous.mp3 in Resources */,
+				92CF54C92BD8BAE7007C9DD4 /* YOASOBI - Racing Into The Night.mp3 in Resources */,
+				92CF54C72BD8BAE7007C9DD4 /* PinkPantheress Ice Spice - Boys a liar Pt 2.mp3 in Resources */,
+				92CF54C32BD8BAE7007C9DD4 /* Hers - Harvey.mp3 in Resources */,
+				92CF54CE2BD8BAE7007C9DD4 /* Doja Cat - Say So.mp3 in Resources */,
+				92CF54C22BD8BAE7007C9DD4 /* Rick Astley - Never Gonna Give You Up.mp3 in Resources */,
+				92CF54D62BD8C74E007C9DD4 /* Laufey - From The Start.mp3 in Resources */,
+				92CF54BF2BD8BAE7007C9DD4 /* Joji.mp3 in Resources */,
+				92CF54CB2BD8BAE7007C9DD4 /* Franz Ferdinand - This Fire.mp3 in Resources */,
+				92CF54CC2BD8BAE7007C9DD4 /* Doja Cat - Kiss Me More.mp3 in Resources */,
+				92CF54C62BD8BAE7007C9DD4 /* ZICO - Any Song.mp3 in Resources */,
+				92CF54C12BD8BAE7007C9DD4 /* Joseph Vincent - Cant Take My Eyes Off You Lyrics.mp3 in Resources */,
+				92CF54792BD8B110007C9DD4 /* Preview Assets.xcassets in Resources */,
+				92CF54D42BD8C6F9007C9DD4 /* The Killers - Mr.Brightside.mp3 in Resources */,
+				92CF54762BD8B110007C9DD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF547C2BD8B110007C9DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF54862BD8B110007C9DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CF546A2BD8B10F007C9DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9275BF302BDF893D00834DC8 /* Game+GKLocalPlayerListener.swift in Sources */,
+				9275BF2E2BDF885100834DC8 /* Game+MatchData.swift in Sources */,
+				92CF54E42BD903E9007C9DD4 /* MainMenuView.swift in Sources */,
+				9275BF2A2BDF85FE00834DC8 /* Game+Friends.swift in Sources */,
+				92CF54742BD8B10F007C9DD4 /* ContentView.swift in Sources */,
+				9275BF362BE0AEA400834DC8 /* MultiplayerGameView.swift in Sources */,
+				9275BF382BE0C7F000834DC8 /* MultiplayerMainGameView.swift in Sources */,
+				9275BF282BDF854400834DC8 /* Game+GKGameCenterController.swift in Sources */,
+				9275BF342BDF89BC00834DC8 /* Game+GKMatchMakerViewControllerDelegate.swift in Sources */,
+				92CF549E2BD8B16F007C9DD4 /* GameView.swift in Sources */,
+				9275BF2C2BDF882B00834DC8 /* Game+Messages.swift in Sources */,
+				92CF54AC2BD8B356007C9DD4 /* Game.swift in Sources */,
+				92CF54722BD8B10F007C9DD4 /* BuzzPopApp.swift in Sources */,
+				92CF54A42BD8B2A4007C9DD4 /* GameControlView.swift in Sources */,
+				92CF54EA2BDB93E5007C9DD4 /* Misc.swift in Sources */,
+				9275BF322BDF896800834DC8 /* Game+GKMatchDelegate.swift in Sources */,
+				92CF54A22BD8B255007C9DD4 /* MainGameView.swift in Sources */,
+				92CF54AA2BD8B339007C9DD4 /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF547A2BD8B110007C9DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CF54832BD8B110007C9DD4 /* BuzzPopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF54842BD8B110007C9DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CF548D2BD8B110007C9DD4 /* BuzzPopUITests.swift in Sources */,
+				92CF548F2BD8B110007C9DD4 /* BuzzPopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92CF54802BD8B110007C9DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CF546D2BD8B10F007C9DD4 /* BuzzPop */;
+			targetProxy = 92CF547F2BD8B110007C9DD4 /* PBXContainerItemProxy */;
+		};
+		92CF548A2BD8B110007C9DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CF546D2BD8B10F007C9DD4 /* BuzzPop */;
+			targetProxy = 92CF54892BD8B110007C9DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92CF54902BD8B110007C9DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92CF54912BD8B110007C9DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92CF54932BD8B110007C9DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BuzzPop/BuzzPop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuzzPop/Preview Content\"";
+				DEVELOPMENT_TEAM = RSBCF2NM6N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NC.BuzzPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92CF54942BD8B110007C9DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BuzzPop/BuzzPop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuzzPop/Preview Content\"";
+				DEVELOPMENT_TEAM = RSBCF2NM6N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NC.BuzzPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92CF54962BD8B110007C9DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSBCF2NM6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.BuzzPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuzzPop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuzzPop";
+			};
+			name = Debug;
+		};
+		92CF54972BD8B110007C9DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSBCF2NM6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.BuzzPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuzzPop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuzzPop";
+			};
+			name = Release;
+		};
+		92CF54992BD8B110007C9DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSBCF2NM6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.BuzzPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuzzPop;
+			};
+			name = Debug;
+		};
+		92CF549A2BD8B110007C9DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RSBCF2NM6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dylan.BuzzPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuzzPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92CF54692BD8B10F007C9DD4 /* Build configuration list for PBXProject "BuzzPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF54902BD8B110007C9DD4 /* Debug */,
+				92CF54912BD8B110007C9DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CF54922BD8B110007C9DD4 /* Build configuration list for PBXNativeTarget "BuzzPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF54932BD8B110007C9DD4 /* Debug */,
+				92CF54942BD8B110007C9DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CF54952BD8B110007C9DD4 /* Build configuration list for PBXNativeTarget "BuzzPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF54962BD8B110007C9DD4 /* Debug */,
+				92CF54972BD8B110007C9DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CF54982BD8B110007C9DD4 /* Build configuration list for PBXNativeTarget "BuzzPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF54992BD8B110007C9DD4 /* Debug */,
+				92CF549A2BD8B110007C9DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92CF54662BD8B10F007C9DD4 /* Project object */;
+}
